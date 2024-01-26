@@ -1,0 +1,36 @@
+/* .search-box{
+   background-color: #bf0d0d;
+   width: 24%;
+   height: 90px;
+} */
+.search-box {
+    position: relative;
+    background-color: #bf0d0d;
+    width: 20%;
+    height: 90px;
+  }
+  .logo img{
+    width: 189px;
+    height: 177px;
+    position: absolute;
+    margin-top: -74px;
+  }
+  .search-box::before {
+    content: '';
+    position: absolute;
+    float: left;
+    padding-top: 58px;
+    margin: 0;
+    width: 17.5%;
+    padding-bottom: 32px;
+    padding-left: 85px;
+    background: #bf0d0d;
+    transform: skewX(-28deg);
+    margin-left: -37px;
+}
+.main-nav{
+    width: 80%;
+}
+.nav_link{
+   margin-left:  710px;
+}
